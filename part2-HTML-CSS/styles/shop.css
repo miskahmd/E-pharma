@@ -1,0 +1,53 @@
+/* shopping style */
+.shopsection{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.shoptable {
+  table-layout: fixed;
+  margin: auto;
+  width: 776px;
+  padding: 3px;
+  border: 1px #94cced solid;
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+.trshop {
+  border-radius: 10px;
+  border: 1px solid navy;
+}
+
+.tdshop {
+  background: #edfafa;
+  border: navy;
+  transition: 0.25s;
+  box-shadow: 4px 4px 3px #8ec0dd;
+  text-align: center;
+  font-size: 18px;
+  color: rgb(41, 115, 189);
+  padding: 20px;
+}
+.tdshop:hover {
+  background-size: 100% 100%;
+  transform: scale(1.1, 1.1);
+  box-shadow: 4px 4px 3px rgb(15, 101, 186);
+  transform-origin: center;
+  border: 2px solid rgb(15, 101, 186);
+  border-radius: 10px;
+}
+
+.a-shop:link {
+  color: rgb(73, 143, 212);
+}
+.a-shop:hover {
+  transition: 0.15;
+  font-weight: bold;
+}
+
+.img-shop{
+  width: 246px;
+  height: 158px;
+  object-fit: cover;
+}

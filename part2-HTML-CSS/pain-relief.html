@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pain Relief</title>
+    
+    <link rel="stylesheet" href="styles\normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <!--For footer -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles\shop.css">
+    <style>
+        table {
+            margin: 0 auto;
+            width: 80%;
+            border: none;
+        }
+
+        td {
+            width: 25%;
+            height: 100px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: none;
+        }
+
+        td:hover {
+
+            box-shadow: 4px 4px 3px rgb(222, 222, 222);
+            transform-origin: center;
+            border: 2px solid rgb(242, 242, 242);
+            border-radius: 10px;
+        }
+
+        tr {
+            border: none;
+        }
+
+        p {
+            font-size: small;
+        }
+
+        #img1{
+            width: 76%;
+            height: 280%;
+            margin-top: 9%;
+        }
+        #img2{
+            width: 76%;
+            height: 292%;
+            margin-top: 7%;
+        }
+        #img3{
+            width: 95%;
+            height: 265%;
+            margin-top: 17%;
+        }
+        #img4{
+            width: 102%;
+            height: 271%;
+            margin-top: 11%;
+        }
+        #img5{
+            width: 95%;
+            height: 284%;
+            margin-top: 6%;
+        }
+        #img6{
+            width: 102%;
+            height: 288%;
+            margin-top: 9%;
+        }
+        
+        #ch1 {
+            margin-top: 11%;
+        }
+        #ch2 {
+            margin-top: -17%;
+        }
+        #ch3 {
+            margin-top: -37%;
+        }
+        
+        button.image-button {
+            width: 20%;
+            height: 20%;
+            border: none;
+            background-color: transparent;
+        }
+
+        .cart:hover {
+            background-color: rgba(199, 199, 199, 0.676);
+            background-size: contain;
+            border-radius: 50%;
+        }
+
+        .cart {
+            width: 80%;
+            height: 80%;
+            object-fit: contain;
+        }
+
+       
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid" >
+        <!--header bar: logo menu/dropdawn-menu-->
+        <nav class="navbar navbar-expand-md">
+            <a href="#" class="navbar-bcs"><img src="images/pharmaLogo.jpg" alt="e-pharma logo" width="5%"></a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#x"><span class="navbar-toggler-icon"></span></button>            
+            <ul style="text-align: right;" class="navbar-nav collapse navbar-collapse">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="aboutUs.html">About us</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact us</a></li>
+                <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="shop.html">shopping</a></li>
+                <li class="nav-item"><a class="nav-link" href="cart.html"><img src="images\cart.png" alt="shopping cart"
+                    style="height: 30px; width: 30px;"></a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <header class=" backgroundimg">
+        <h1 style="text-align: center; padding: 4%; font-family: Georgia, 'Times New Roman', Times, serif; letter-spacing: 10px;">
+            Pain Relief
+        </h1>
+    </header>
+
+    <section class="shopsection">
+        <table class="shoptable">
+            <tr class="trshop">
+                <td class="tdshop"><img src="images/Ibuprofen33.jpg" alt="Ibuprofen" class="img-shop" id="img1">
+                    <h3>Ibuprofen</h3>
+                    <p>A nonsteroidal anti-inflammatory drug (NSAID) that is commonly used to reduce fever,
+                        inflammation, and pain caused by
+                        conditions such as headache, menstrual cramps, and arthritis.
+                    </p>
+                    <h5>3.50 OMR </h5>
+                    <button class="image-button">
+                        <img class="cart" id="ch1" src="images\cart.png" alt="Button Image">
+                    </button>
+                </td>
+
+
+                <td class="tdshop">
+                    <img src="images/acetaminophen12.jpg" alt="Acetaminophen" class="img-shop" id="img2">
+                    <h3>Acetaminophen</h3>
+                    <p>A pain reliever and fever reducer that is often used to alleviate mild-to-moderate pain, such as
+                        headache, toothache,
+                        and muscle aches.
+                        <br>
+                        <br>
+                    </p>
+                    <h5>2.00 OMR </h5>
+                    <button class="image-button">
+                        <img class="cart" id="ch2" src="images\cart.png" alt="Button Image">
+                    </button>
+                </td>
+
+                <td class="tdshop">
+                    <img src="images/Aspirin.jpg" alt="Aspirin" class="img-shop" id="img3">
+                    <h3>Aspirin</h3>
+                    <p>An NSAID that is used to relieve mild-to-moderate pain, fever, and inflammation, and to reduce
+                        the risk of blood clots
+                        and stroke.
+                        <br>
+                        <br>
+                        <br>
+                    </p>
+                    <h5>1.80 OMR </h5>
+                    <button class="image-button">
+                        <img class="cart" id="ch3" src="images\cart.png" alt="Button Image">
+                    </button>
+                </td>
+            </tr>
+
+            <tr class="trshop">
+                <td class="tdshop">
+                    <img src="images\Naproxen.jpg" alt="Naproxen" class="img-shop" id="img4">
+                    <h3>Naproxen</h3>
+                    <p>NSAID that is used to reduce pain, inflammation, and fever, and to treat conditions such as
+                        menstrual cramps,
+                        osteoarthritis, and rheumatoid arthritis.
+                        <br>
+                        <br>
+                    </p>
+                    <h5>4.50 OMR </h5>
+                    <button class="image-button">
+                        <img class="cart" src="images\cart.png" alt="Button Image">
+                    </button>
+                </td>
+                <td class="tdshop">
+                    <img src="images/lidocaine1.jpg" alt="Lidocaine" class="img-shop" id="img5">
+                    <h3>Lidocaine</h3>
+                    <p>A local anesthetic that is used to numb the skin and mucous membranes to reduce pain associated
+                        with medical procedures
+                        such as dental work or minor skin surgery.
+                    </p>
+                    <h5>3.00 OMR </h5>
+                    <button class="image-button">
+                        <img class="cart" src="images\cart.png" alt="Button Image">
+                    </button>
+                </td>
+                <td class="tdshop">
+                    <img src="images\Hydrocodone.webp" alt="Hydrocodone" class="img-shop" id="img6">
+                    <h3>Hydrocodone</h3>
+                    <p>An opioid pain reliever that is used to treat severe pain, such as pain from injury, surgery, or
+                        chronic conditions like
+                        cancer.
+                        <br>
+                        <br>
+                        <br>
+                    </p>
+                    <h5>6.90 OMR </h5>
+                    <button class="image-button">
+                        <img class="cart"  src="images\cart.png" alt="Button Image">
+                    </button>
+                </td>
+            </tr>
+        </table>
+    </section>
+        
+
+</body>
+
+<footer class="footer">
+    <div class="container" id="footer-counter">
+        <div class="footer-col" id="companyUl">
+            <h4>company</h4>
+            <ul id="ul-footer">
+                 <li><a href="aboutUs.html">about us</a></li>
+                 <li><a href="service.html">our services</a></li>
+                 <li><a href="contact.html">contact us</a></li>
+                 <li><a href="shop.html">shopping</a></li>
+            </ul>
+         </div>
+         <div class="footer-col" id="gethelpUl">
+            <h4>get help</h4>
+            <ul id="ul-footer">
+                 <li><a href="#">FAQ</a></li>
+                 <li><a href="#">shipping</a></li>
+                 <li><a href="#">returns</a></li>
+                 <li><a href="#">order status</a></li>
+                 <li><a href="#">payment options</a></li>
+            </ul>
+         </div>
+         <div class="footer-col">
+            <h4>online shop</h4>
+            <ul id="ul-footer">
+                 <li><a href="mom-baby.html">Mom and Baby</a></li>
+                 <li><a href="foodSup.html">Food supplements</a></li>
+                 <li><a href="Oral.html">Oral and Dental Care</a></li>
+                 <li><a href="pain-relief.html">Pain Relief</a></li>
+                 <li><a href="cold-flu.html">Cold and Flu</a></li>
+                 <li><a href="bodyCare.html">Body Care</a></li>
+            </ul>
+         </div>
+         <div class="footer-col" id="followusUl">
+            <h4>follow us</h4>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+         </div>
+    </div>
+</footer>
+
+</html>
